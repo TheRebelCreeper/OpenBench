@@ -27,6 +27,7 @@ import tempfile
 import time
 import traceback
 import zipfile
+from dotenv import load_dotenv
 
 class BadVersionException(Exception):
     def __init__(self, message='Wrong Client Version'):
@@ -158,6 +159,7 @@ if __name__ == '__main__':
 
     # Use client.py's path as the base pathway
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    load_dotenv()
 
     args = parse_arguments()
 
