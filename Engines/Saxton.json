@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 2150000,
+    "nps"     : 1450000,
     "source"  : "https://github.com/TheRebelCreeper/ChessEngine",
 
     "build" : {
@@ -13,7 +13,7 @@
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "master",
+            "base_branch"     : "rewrite",
             "book_name"       : "UHO_Lichess_4852_v1.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
@@ -37,14 +37,14 @@
             "both_options"      : "Threads=1 Hash=64",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32,
-            "test_bounds"       : "[-4.00, 1.00]"
+            "test_bounds"       : "[-5.00, 0.00]"
         },
 
         "Nonreg LTC" : {
             "both_options"      : "Threads=1 Hash=128",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8,
-            "test_bounds"       : "[-4.00, 1.00]"
+            "test_bounds"       : "[-5.00, 0.00]"
         }
     }
 }
