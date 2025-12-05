@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 1450000,
+    "nps"     : 1580000,
     "source"  : "https://github.com/TheRebelCreeper/ChessEngine",
 
     "build" : {
